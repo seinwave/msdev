@@ -1,6 +1,8 @@
 sass:
   sass_dir: assets/css
 
+baseurl: msdev/
+
 collections:
  authors:
   output: true
