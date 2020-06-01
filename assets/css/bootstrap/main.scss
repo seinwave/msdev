@@ -1,0 +1,239 @@
+body{
+  margin-bottom: 4.5rem;
+  color: #404040;
+  background-color:#fff;
+}
+
+#hero{
+  margin-top: 25vh;
+}
+
+.header-container{
+  margin-top: 8vh;
+}
+
+.features-container{
+  border-top: solid 2px #404040;
+  border-bottom: solid 2px #404040;
+  padding: 5px;
+}
+
+.back{
+  text-align: left;
+  margin-left: 8rem;
+  margin-top: 3rem;
+}
+
+.logo{
+  max-width: 10em;
+  padding: 5px;
+  margin: 5px;
+}
+
+.logo-container{
+  border-top: solid 2px #404040;
+  border-bottom: solid 2px #404040;
+  padding: 5px;
+  max-width: 50%;
+  margin-bottom: 3rem;
+}
+
+.project-container{
+  border: solid 2px #404040;
+  max-width: 50%;
+  box-shadow: 3px 3px 0px #404040;
+  margin-bottom: 1.5rem;
+}
+
+.project-stack{
+  display: grid;
+  border-top: solid 2px #404040;
+  border-bottom: solid 2px #404040;
+  display: inline-block;
+  margin-bottom: 1.5rem;
+  margin-top: .5rem;
+  text-align: center;
+}
+
+.proj-pic-row{
+  margin-bottom: 2rem;
+}
+
+.proj-pic{
+  max-width: 20rem;
+  border: solid 2px #404040;
+}
+
+.sidebar {
+  padding-top: 4rem;
+  border-left: 1px solid black;
+  max-height: 24rem;
+  padding-left: 2rem;
+}
+
+.post-content-container{
+  width: 66.66667%;
+  word-wrap: break-word;
+  line-height: 1.5;
+  margin-left: 5rem;
+  padding-left: 8rem;
+  padding-right: 6rem;
+  font-size: 1.25rem;
+}
+
+
+@media (max-width: 900px){
+  .project-container{
+    border: solid 2px #404040;
+    max-width: 90%;
+    box-shadow: 3px 3px 0px #404040;
+    margin-bottom: 1.5rem;
+  }
+
+  .proj-pic{
+    max-width: 14rem;
+  }
+
+  .logo{
+    max-width: 20em;
+    padding: 5px;
+    margin: 5px;
+  }
+  
+  .logo-container{
+    border-top: solid 2px #404040;
+    border-bottom: solid 2px #404040;
+    padding: 5px;
+    max-width: 60%;
+    margin-bottom: 3rem;
+  }
+
+  .col-xs-2{
+    min-width: 6em;   /* 5em gets us to 3x4 in mobile; 6em is 2x6. I can't decide which I like better */
+  }
+
+  .back{
+    margin-left: 14em;
+  }
+
+  .sidebar {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 6rem;
+    padding-top: 2rem;
+    border-top: 1px solid black;
+    border-left: 1px solid #fff 
+  }
+
+  .post-content-container{
+    margin-left: 1rem;
+    padding-left: 2rem;
+    padding-right: 1rem;
+    font-size: 1.25rem;
+  }
+
+}
+
+
+h5{
+  font-style: italic;
+}
+
+.stack-row{
+  display: grid;
+  justify-content: center;
+}
+
+
+footer {
+  padding-top: 3rem;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+  line-height: 45px;
+  margin-top: 2.5rem;
+  }
+
+.footer-git{
+  color: #404040;
+}
+
+.footer-git:hover{
+  transition: 0.2s all;
+  color: rgb(78, 78, 226);
+  transform: scale(1.1);
+}
+
+.mainlink{
+  border-bottom: dotted 2px #404040;
+  color: #404040;
+}
+
+.mainlink:hover{
+  text-decoration: none;
+}
+
+
+.collapse.show {
+  display: block;
+  padding-top: 1rem;
+  margin-bottom: 5px;
+}
+
+.collapse{
+  align-content: center;
+}
+
+figure{
+  text-align: center;
+}
+
+.img-responsive { 
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+}
+
+
+.page-header{
+margin: 40px 0 20px;
+}
+
+.blog-top{
+  margin-top: 5rem;
+}
+
+.post_list{
+  list-style-type: none;
+}
+
+.post_item{
+  margin-bottom: 2rem;
+}
+
+.post_date{
+  font-size: 1.3rem;
+  color: rgb(156, 155, 155);
+  display: block;
+}
+
+.post_title{
+  font-size: 2.0rem;
+  color: black;
+  position: relative;
+}
+
+
+
+.blog-title{
+  margin-top: 4rem;
+  margin-bottom: 5.5rem;
+}
+
+.post-head{
+  margin-bottom: 2rem;
+  padding-left: 4rem;
+}
+
+
+
