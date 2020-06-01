@@ -6,7 +6,7 @@ title: Matt's Blog
   <div class = "container-fluid header-container">
     <div class = "row justify-content-left">
       <div class = "back">
-        <a class = "mainlink" href ="/index.html">← HOME</a>
+        <a class = "mainlink" href ="{{site.baseurl}}/index.html">← HOME</a>
       </div>
   </div> 
   <div class = "row justify-content-left">
@@ -20,7 +20,7 @@ title: Matt's Blog
             {% for post in site.posts %}
             <li class = "post_item">
               <span class ="post_date">{{post.date | date: '%B %d'}}</span>
-              <a class = "mainlink post_title" href = {{post.url}}> {{post.title}} </a>
+              <a class = "mainlink post_title" href = {{site.baseurl}}/{{post.url}}> {{post.title}} </a>
             </li>
           {% endfor %}
           </ul>
