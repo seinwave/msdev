@@ -8,6 +8,6 @@ gem "jekyll"
 
 # gem "rails"
 
-gem "github-pages", "~> VERSION", group: :jekyll_plugins
+gem "github-pages", "4.1", group: :jekyll_plugins
 
 
