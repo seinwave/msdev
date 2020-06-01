@@ -6,8 +6,6 @@ gem 'rdiscount'
 
 git_source(:github) {|repo_name| "https://github.com/msdev" }
 
-gem "jekyll"
-
 # gem "rails"
 
 
