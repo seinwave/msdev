@@ -57,6 +57,7 @@ GEM
       unicode-display_width (~> 1.1, >= 1.1.1)
     unicode-display_width (1.7.0)
 
+
 PLATFORMS
   ruby
 
@@ -65,3 +66,7 @@ DEPENDENCIES
 
 BUNDLED WITH
    2.1.4
+
+source "https://rubygems.org"
+
+gem "github-pages", group: :jekyll_plugins
