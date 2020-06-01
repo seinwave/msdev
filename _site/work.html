@@ -179,10 +179,11 @@ let myName = document.createTextNode("  Matt Seidholz")
 
 let gitA = document.createElement('a');
 let ghLogo = document.createElement('i');
+let gitProfile = "https://github.com/seinwave";
 ghLogo.className = "fab fa-github footer-git";
 gitA.appendChild(ghLogo)
-gitA.href= "https:/github.com/seinwave"
-//gitA.target = "_blank"
+gitA.href= gitProfile;
+gitA.target = "_blank"
 
 h4.appendChild(text);
 h4.appendChild(gitA)

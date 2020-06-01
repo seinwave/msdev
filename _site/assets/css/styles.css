@@ -2336,8 +2336,6 @@ footer { padding-top: 3rem; bottom: 0; width: 100%; height: 2.5rem; line-height:
 
 .mainlink:hover { text-decoration: none; }
 
-.collapse.show { display: block; padding-top: 1rem; margin-bottom: 5px; }
-
 .collapse { align-content: center; }
 
 figure { text-align: center; }
