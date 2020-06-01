@@ -1,8 +1,6 @@
 sass:
   sass_dir: assets/css
 
-baseurl: https://seinwave.github.io/msdev/
-
 collections:
  authors:
   output: true
