@@ -137,6 +137,18 @@ body{
     font-size: 1.25rem;
   }
 
+  .work-container{
+    display: flex;
+    flex-flow: column;
+  }
+
+  .logo-container{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+
+
 }
 
 
