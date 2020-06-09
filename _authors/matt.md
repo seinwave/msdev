@@ -1,7 +1,7 @@
 ---
 short_name: Matt
 name: Matt Seidholz
-position: fuk boi chief queef
+position: head dude. 
 ---
 
-Matt is 2 hot 2 handle
+He's the guy that owns this thing. 
