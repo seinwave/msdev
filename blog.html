@@ -15,16 +15,20 @@ title: Matt's Blog
             <h1 class = "display-4 page-header blog-title text-left">Analects</h1>
             <div class = "row justify-content-between"> 
               <div class = "col-md-5 posts-container"> 
-            <h1>2020</h1>
-          <ul class = "post_list">
             {% for post in site.posts %}
-              {%if post.year == "2020"}
+            {% assign currentdate = post.date | date: "%Y" %}
+            {% if currentdate != date %}
+              {% unless forloop.first %}</ul>{% endunless %}
+              <h1 id="y{{post.date | date: '%Y' }}">{{ currentdate }}</h1>
+              <ul class = "post_list">
+              {% assign date = currentdate %}
+            {% endif %}
               <li class = "post_item">
                 <span class ="post_date">{{post.date | date: '%B %d'}}</span>
                 <a class = "mainlink post_title" href = {{site.baseurl}}/{{post.url}}> {{post.title}} </a>
               </li>
-            {% endif %}
-          {% endfor %}
+              {% if forloop.last %}</ul>{% endif %}
+            {% endfor %}
           </ul>
         </div>
       
