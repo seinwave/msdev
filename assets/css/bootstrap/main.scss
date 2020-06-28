@@ -87,6 +87,7 @@ body{
 }
 
 
+
 @media (max-width: 900px){
   .project-container{
     border: solid 2px #404040;
@@ -132,6 +133,7 @@ body{
 
   .post-content-container{
     margin-left: 1rem;
+    width: 80%;
     padding-left: 2rem;
     padding-right: 1rem;
     font-size: 1.25rem;
@@ -212,7 +214,7 @@ margin: 40px 0 20px;
 
 .post_list{
   list-style-type: none;
-  margin-bottom: 2rem;
+  margin-bottom: 6rem;
 }
 
 .post_item{
