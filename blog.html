@@ -18,10 +18,12 @@ title: Matt's Blog
             <h1>2020</h1>
           <ul class = "post_list">
             {% for post in site.posts %}
-            <li class = "post_item">
-              <span class ="post_date">{{post.date | date: '%B %d'}}</span>
-              <a class = "mainlink post_title" href = {{site.baseurl}}/{{post.url}}> {{post.title}} </a>
-            </li>
+              {%if post.year == "2020"}
+              <li class = "post_item">
+                <span class ="post_date">{{post.date | date: '%B %d'}}</span>
+                <a class = "mainlink post_title" href = {{site.baseurl}}/{{post.url}}> {{post.title}} </a>
+              </li>
+            {% endif %}
           {% endfor %}
           </ul>
         </div>
