@@ -19,7 +19,7 @@ title: Matt's Blog
             {% assign currentdate = post.date | date: "%Y" %}
             {% if currentdate != date %}
               {% unless forloop.first %}</ul>{% endunless %}
-              <h1 id="y{{post.date | date: '%Y' }}">{{ currentdate }}</h1>
+              <h1 id=>{{ currentdate }}</h1>
               <ul class = "post_list">
               {% assign date = currentdate %}
             {% endif %}
