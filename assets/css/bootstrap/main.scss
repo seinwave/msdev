@@ -149,6 +149,13 @@ body{
     margin-bottom: 2rem;
   }
 
+  .entry-image{
+    margin: 0 auto;
+    display: block;
+    max-width: 80%;
+    height: auto;
+  }
+
 
 
 }
@@ -245,7 +252,7 @@ margin: 40px 0 20px;
   padding-left: 4rem;
 }
 
-.entry-content{
+.entry-image{
   margin: 0 auto;
   display: block;
   max-width: 30%;
