@@ -2323,7 +2323,7 @@ body { margin-bottom: 4.5rem; color: #404040; background-color: #fff; }
   .col-xs-2 { min-width: 6em; /* 5em gets us to 3x4 in mobile; 6em is 2x6. I can't decide which I like better */ }
   .back { margin-left: 1em; }
   .sidebar { margin-left: 2rem; margin-right: 2rem; margin-top: 6rem; padding-top: 2rem; border-top: 1px solid black; border-left: 1px solid #fff; }
-  .post-content-container { margin-left: 1rem; padding-left: 2rem; padding-right: 1rem; font-size: 1.25rem; }
+  .post-content-container { margin-left: 1rem; width: 80%; padding-left: 2rem; padding-right: 1rem; font-size: 1.25rem; }
   .work-container { display: flex; flex-flow: column; }
   .logo-container { margin-top: 2rem; margin-bottom: 2rem; } }
 h5 { font-style: italic; }
@@ -2348,7 +2348,7 @@ figure { text-align: center; }
 
 .blog-top { margin-top: 5rem; }
 
-.post_list { list-style-type: none; }
+.post_list { list-style-type: none; margin-bottom: 6rem; }
 
 .post_item { margin-bottom: 2rem; }
 
@@ -2359,3 +2359,5 @@ figure { text-align: center; }
 .blog-title { margin-top: 4rem; margin-bottom: 5.5rem; }
 
 .post-head { margin-bottom: 2rem; padding-left: 4rem; }
+
+.entry-image { margin: 0 auto; display: block; max-width: 80%; height: auto; }
