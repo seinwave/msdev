@@ -197,7 +197,7 @@ figure{
 
 .img-responsive { 
   display: inline-block;
-  max-width: 100%;
+  max-width: 60%;
   height: auto;
 }
 
@@ -248,5 +248,9 @@ margin: 40px 0 20px;
   display: block;
   max-width: 80%;
   height: auto;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  border: solid black 2px;
+  padding: 2px;
 }
 

@@ -2342,7 +2342,7 @@ footer { padding-top: 3rem; bottom: 0; width: 100%; height: 2.5rem; line-height:
 
 figure { text-align: center; }
 
-.img-responsive { display: inline-block; max-width: 100%; height: auto; }
+.img-responsive { display: inline-block; max-width: 60%; height: auto; }
 
 .page-header { margin: 40px 0 20px; }
 
@@ -2360,4 +2360,4 @@ figure { text-align: center; }
 
 .post-head { margin-bottom: 2rem; padding-left: 4rem; }
 
-.entry-image { margin: 0 auto; display: block; max-width: 80%; height: auto; }
+.entry-image { margin: 0 auto; display: block; max-width: 80%; height: auto; margin-bottom: 2rem; margin-top: 1rem; border: solid black 2px; padding: 2px; }
