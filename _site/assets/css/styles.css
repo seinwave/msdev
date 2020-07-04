@@ -2290,6 +2290,8 @@ a.text-dark:hover, a.text-dark:focus { color: #1d2124 !important; }
   .table-bordered th, .table-bordered td { border: 1px solid #ddd !important; } }
 body { margin-bottom: 4.5rem; color: #404040; background-color: #fff; }
 
+h2 { text-align: center; margin-bottom: 2rem; margin-top: 2rem; font-size: 2.5rem; }
+
 #hero { margin-top: 25vh; }
 
 .header-container { margin-top: 8vh; }
@@ -2360,4 +2362,8 @@ figure { text-align: center; }
 
 .post-head { margin-bottom: 2rem; padding-left: 4rem; }
 
-.entry-image { margin: 0 auto; display: block; max-width: 80%; height: auto; margin-bottom: 2rem; margin-top: 1rem; border: solid black 2px; padding: 2px; }
+.entry-image { margin: 0 auto; display: block; max-width: 80%; height: auto; margin-top: 1rem; border: solid black 2px; padding: 2px; }
+
+.entry-image-nocap { margin-bottom: 2rem; margin: 0 auto; display: block; max-width: 80%; height: auto; margin-top: 1rem; border: solid black 2px; padding: 2px; }
+
+img + em { font-size: 1rem; text-align: center; margin-bottom: 2rem; display: block; }

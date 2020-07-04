@@ -4,6 +4,13 @@ body{
   background-color:#fff;
 }
 
+h2 {
+  text-align:center;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  font-size: 2.5rem;
+}
+
 #hero{
   margin-top: 25vh;
 }
@@ -248,9 +255,26 @@ margin: 40px 0 20px;
   display: block;
   max-width: 80%;
   height: auto;
-  margin-bottom: 2rem;
   margin-top: 1rem;
   border: solid black 2px;
   padding: 2px;
 }
+
+.entry-image-nocap{
+  margin-bottom:2rem;
+  margin: 0 auto;
+  display: block;
+  max-width: 80%;
+  height: auto;
+  margin-top: 1rem;
+  border: solid black 2px;
+  padding: 2px;
+}
+
+img + em {
+  font-size: 1rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  display: block;
+ }
 
