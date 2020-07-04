@@ -56,7 +56,7 @@ The Mountain Inn wasn’t bad, exactly. Just odd. No lights in the hallways at 
 
 Since we were alone there, we had the run of the place, and we took advantage of that by checking out as soon as we found a better place to sleep.
 
-And we found it quick – the Piya Guest House. Lovely poolside bungalows for cheap:![descrip](/assets/images/travel-pics/Mae-Hong-Son/MaeHongSon-pic14.jpg-nocap){: .entry-image}
+And we found it quick – the Piya Guest House. Lovely poolside bungalows for cheap.
  
 For most of the day we did almost nothing. Our only major deed came in the evening, when we rode our bikes up Doi Kong Mu to check out the sunset from the back of the temple.![descrip](/assets/images/travel-pics/Mae-Hong-Son/MaeHongSon-pic16.jpg){: .entry-image-nocap}
 
