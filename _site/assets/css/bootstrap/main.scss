@@ -22,6 +22,7 @@ blockquote {
   padding: 0.5em 10px;
   quotes: "\201C""\201D""\2018""\2019";
 }
+
 blockquote:before {
   color: #ccc;
   content: open-quote;
@@ -87,7 +88,7 @@ blockquote p {
 }
 
 .proj-pic-row{
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .proj-pic{
@@ -232,6 +233,10 @@ figure{
   display: inline-block;
   max-width: 60%;
   height: auto;
+}
+
+.description-column{
+  padding-left:2rem;
 }
 
 
