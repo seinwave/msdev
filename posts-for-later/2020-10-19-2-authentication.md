@@ -15,7 +15,7 @@ Auth0 is almost entirely new to me. I figure I should start with it, since 1) Us
 
 Can't be too unhappy with this!
 
-![Auth0 at work](/assets/images/auth0-basic-demo.gif)
+![Auth0 at work](/assets/images/auth0-basic-demo.gif){: .entry-image}
 
 Basically, I've built an `AuthButton` component that connects the user to the Auth0 ['Universal Login Page.'](https://auth0.com/docs/universal-login)
 

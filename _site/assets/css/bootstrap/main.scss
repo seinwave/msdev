@@ -1,17 +1,21 @@
-body{
+body {
   margin-bottom: 4.5rem;
   color: #404040;
-  background-color:#fff;
+  background-color: #fff;
 }
 
 h2 {
-  text-align:center;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
+  margin-bottom: 2.5rem;
+  margin-top: 2.5rem;
   font-size: 2.5rem;
 }
 
-#hero{
+h4 {
+  margin-bottom: 2.5rem;
+  margin-top: 2.5rem;
+}
+
+#hero {
   margin-top: 25vh;
 }
 
@@ -31,33 +35,34 @@ blockquote:before {
   margin-right: 0.25em;
   vertical-align: -0.4em;
 }
+
 blockquote p {
   display: inline;
 }
 
-.header-container{
+.header-container {
   margin-top: 8vh;
 }
 
-.features-container{
+.features-container {
   border-top: solid 2px #404040;
   border-bottom: solid 2px #404040;
   padding: 5px;
 }
 
-.back{
+.back {
   text-align: left;
   margin-left: 8rem;
   margin-top: 3rem;
 }
 
-.logo{
+.logo {
   max-width: 10em;
   padding: 5px;
   margin: 5px;
 }
 
-.logo-container{
+.logo-container {
   border-top: solid 2px #404040;
   border-bottom: solid 2px #404040;
   padding: 5px;
@@ -65,18 +70,18 @@ blockquote p {
   margin-bottom: 3rem;
 }
 
-.project-container{
+.project-container {
   border: solid 2px #404040;
   max-width: 50%;
   box-shadow: 3px 3px 0px #404040;
   margin-bottom: 1.5rem;
 }
 
-.project-title{
+.project-title {
   padding-top: 1rem;
 }
 
-.project-stack{
+.project-stack {
   display: grid;
   border-top: solid 2px #404040;
   border-bottom: solid 2px #404040;
@@ -87,11 +92,11 @@ blockquote p {
   margin-bottom: 2rem;
 }
 
-.proj-pic-row{
+.proj-pic-row {
   margin-bottom: 1rem;
 }
 
-.proj-pic{
+.proj-pic {
   max-width: 20rem;
   border: solid 2px #404040;
 }
@@ -103,8 +108,7 @@ blockquote p {
   padding-left: 2rem;
 }
 
-.post-content-container{
-  width: 66.66667%;
+.post-content-container {
   word-wrap: break-word;
   line-height: 1.5;
   margin-left: 5rem;
@@ -115,25 +119,25 @@ blockquote p {
 
 
 
-@media (max-width: 900px){
-  .project-container{
+@media (max-width: 900px) {
+  .project-container {
     border: solid 2px #404040;
     max-width: 90%;
     box-shadow: 3px 3px 0px #404040;
     margin-bottom: 1.5rem;
   }
 
-  .proj-pic{
+  .proj-pic {
     max-width: 14rem;
   }
 
-  .logo{
+  .logo {
     max-width: 20em;
     padding: 5px;
     margin: 5px;
   }
-  
-  .logo-container{
+
+  .logo-container {
     border-top: solid 2px #404040;
     border-bottom: solid 2px #404040;
     padding: 5px;
@@ -141,11 +145,13 @@ blockquote p {
     margin-bottom: 3rem;
   }
 
-  .col-xs-2{
-    min-width: 6em;   /* 5em gets us to 3x4 in mobile; 6em is 2x6. I can't decide which I like better */
+
+  .col-xs-2 {
+    min-width: 6em;
+    /* 5em gets us to 3x4 in mobile; 6em is 2x6. I can't decide which I like better */
   }
 
-  .back{
+  .back {
     margin-left: 1em;
   }
 
@@ -155,10 +161,10 @@ blockquote p {
     margin-top: 6rem;
     padding-top: 2rem;
     border-top: 1px solid black;
-    border-left: 1px solid #fff 
+    border-left: 1px solid #fff
   }
 
-  .post-content-container{
+  .post-content-container {
     margin-left: 1rem;
     width: 80%;
     padding-left: 2rem;
@@ -166,12 +172,12 @@ blockquote p {
     font-size: 1.25rem;
   }
 
-  .work-container{
+  .work-container {
     display: flex;
     flex-flow: column;
   }
 
-  .logo-container{
+  .logo-container {
     margin-top: 2rem;
     margin-bottom: 2rem;
   }
@@ -179,11 +185,11 @@ blockquote p {
 }
 
 
-h5{
+h5 {
   font-style: italic;
 }
 
-.stack-row{
+.stack-row {
   display: grid;
   justify-content: center;
 }
@@ -196,28 +202,28 @@ footer {
   height: 2.5rem;
   line-height: 45px;
   margin-top: 2.5rem;
-  }
+}
 
-.footer-git{
+.footer-git {
   color: #404040;
 }
 
-.footer-git:hover{
+.footer-git:hover {
   transition: 0.2s all;
   color: rgb(78, 78, 226);
   transform: scale(1.1);
 }
 
-.mainlink{
+.mainlink {
   border-bottom: dotted 2px #404040;
   color: #404040;
 }
 
-.mainlink:hover{
+.mainlink:hover {
   text-decoration: none;
 }
 
-.desc-row{
+.desc-row {
   display: flex;
   justify-content: space-between;
   padding-left: 2rem;
@@ -225,45 +231,45 @@ footer {
   padding-bottom: 1rem;
 }
 
-figure{
+figure {
   text-align: center;
 }
 
-.img-responsive { 
+.img-responsive {
   display: inline-block;
   max-width: 60%;
   height: auto;
 }
 
-.description-column{
-  padding-left:2rem;
+.description-column {
+  padding-left: 2rem;
 }
 
 
-.page-header{
-margin: 40px 0 20px;
+.page-header {
+  margin: 40px 0 20px;
 }
 
-.blog-top{
+.blog-top {
   margin-top: 5rem;
 }
 
-.post_list{
+.post_list {
   list-style-type: none;
   margin-bottom: 6rem;
 }
 
-.post_item{
+.post_item {
   margin-bottom: 2rem;
 }
 
-.post_date{
+.post_date {
   font-size: 1.3rem;
   color: rgb(156, 155, 155);
   display: block;
 }
 
-.post_title{
+.post_title {
   font-size: 2.0rem;
   color: black;
   position: relative;
@@ -271,17 +277,28 @@ margin: 40px 0 20px;
 
 
 
-.blog-title{
+.blog-title {
   margin-top: 4rem;
   margin-bottom: 5.5rem;
 }
 
-.post-head{
+.post-head {
+  margin-bottom: 3rem;
+  padding-left: 1rem;
+}
+
+.entry-image {
+  margin: 0 auto;
+  display: block;
+  max-width: 80%;
+  height: auto;
+  margin-top: 1rem;
+  border: solid black 2px;
+  padding: 2px;
+}
+
+.entry-image-nocap {
   margin-bottom: 2rem;
-  padding-left: 4rem;
-}
-
-.entry-image{
   margin: 0 auto;
   display: block;
   max-width: 80%;
@@ -291,21 +308,9 @@ margin: 40px 0 20px;
   padding: 2px;
 }
 
-.entry-image-nocap{
-  margin-bottom:2rem;
-  margin: 0 auto;
-  display: block;
-  max-width: 80%;
-  height: auto;
-  margin-top: 1rem;
-  border: solid black 2px;
-  padding: 2px;
-}
-
-img + em {
+img+em {
   font-size: 1rem;
   text-align: center;
   margin-bottom: 2rem;
   display: block;
- }
-
+}

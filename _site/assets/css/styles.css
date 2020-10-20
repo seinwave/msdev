@@ -2291,7 +2291,9 @@ a.text-dark:hover, a.text-dark:focus { color: #1d2124 !important; }
   .table-bordered th, .table-bordered td { border: 1px solid #ddd !important; } }
 body { margin-bottom: 4.5rem; color: #404040; background-color: #fff; }
 
-h2 { text-align: center; margin-bottom: 2rem; margin-top: 2rem; font-size: 2.5rem; }
+h2 { margin-bottom: 2.5rem; margin-top: 2.5rem; font-size: 2.5rem; }
+
+h4 { margin-bottom: 2.5rem; margin-top: 2.5rem; }
 
 #hero { margin-top: 25vh; }
 
@@ -2323,7 +2325,7 @@ blockquote p { display: inline; }
 
 .sidebar { padding-top: 4rem; border-left: 1px solid black; max-height: 24rem; padding-left: 2rem; }
 
-.post-content-container { width: 66.66667%; word-wrap: break-word; line-height: 1.5; margin-left: 5rem; padding-left: 8rem; padding-right: 6rem; font-size: 1.25rem; }
+.post-content-container { word-wrap: break-word; line-height: 1.5; margin-left: 5rem; padding-left: 8rem; padding-right: 6rem; font-size: 1.25rem; }
 
 @media (max-width: 900px) { .project-container { border: solid 2px #404040; max-width: 90%; box-shadow: 3px 3px 0px #404040; margin-bottom: 1.5rem; }
   .proj-pic { max-width: 14rem; }
@@ -2371,7 +2373,7 @@ figure { text-align: center; }
 
 .blog-title { margin-top: 4rem; margin-bottom: 5.5rem; }
 
-.post-head { margin-bottom: 2rem; padding-left: 4rem; }
+.post-head { margin-bottom: 3rem; padding-left: 1rem; }
 
 .entry-image { margin: 0 auto; display: block; max-width: 80%; height: auto; margin-top: 1rem; border: solid black 2px; padding: 2px; }
 
